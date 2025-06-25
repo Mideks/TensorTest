@@ -5,7 +5,7 @@
 
 ## 📦 Используемые технологии
 
-- Python 3.9+
+- Python 3.11+
 - Pytest
 - Selenium WebDriver
 - Page Object Model (POM)
@@ -41,22 +41,22 @@ pytest -v
 
 ```
 TensorTest/
-├── pages/               # PageObject-классы для разных страниц
+├── pages/                     # PageObject-классы для разных страниц
 │   ├── main_page.py
 │   ├── tensor_page.py
 │   ├── contacts_page.py
 │   └── downloads_page.py
-├── tests/               # Тестовые сценарии
-│   └── test_tensor.py   # Задание 1
-│   └── test_location.py # Задание 2
-│   └── test_download    # Задание 3    
-├── conftest.py          # Общие для тестов (например, WebDriver)
-├── pytest.ini           # Настройка путей и опций pytest
-├── requirements.txt     # Зависимости проекта
-├── config.py            # Некоторые конфигурации для скриптов
-├── utils.py             # Инструменты необходимые для работы тестов (работа с файлами)
-├── .gitignore           # Какие файлы должен игнорировать гит
-└── README.md            # Этот файл
+├── tests/                     # Тестовые сценарии
+│   └── test_tensor.py         # Задание 1
+│   └── test_location.py       # Задание 2
+│   └── test_download          # Задание 3    
+├── conftest.py                # Общие для тестов (например, WebDriver)
+├── pytest.ini                 # Настройка путей и опций pytest
+├── requirements.txt           # Зависимости проекта
+├── config.py                  # Некоторые конфигурации для скриптов
+├── utils.py                   # Инструменты необходимые для работы тестов (работа с файлами)
+├── .gitignore                 # Какие файлы должен игнорировать гит
+└── README.md                  # Этот файл
 ```
 
 ## 📝 Примечание
